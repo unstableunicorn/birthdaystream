@@ -1,0 +1,5 @@
+*.go
+.devcontainer/
+.gitignore
+.github/
+.vscode/
