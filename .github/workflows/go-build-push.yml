@@ -101,6 +101,9 @@ jobs:
         with:
           name: birthdaystream
 
+      - name: Make build artifact executable
+        run: chmod +x birthdaystream
+
       - name: Set up Docker Buildx
         id: buildx
         uses: docker/setup-buildx-action@v1
